@@ -8,3 +8,4 @@ Les [réglages, c'est par là](../../settings).
 [Éditez ce fichier en cliquant ici](../../edit/master/README.md).
 
 heu...c'est ici qu'il faut écrire?
+Ca fonctionne enfin!
