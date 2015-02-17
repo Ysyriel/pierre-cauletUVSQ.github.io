@@ -1,0 +1,27 @@
+body {margin-left : 3cm;
+background-color : grey;
+}
+section{border : solid 2px;
+color : red;
+border-radius : 20px;
+padding : 0.5cm;
+margin : 0.3cm;
+}
+footer {
+font-size : 50%; 
+border-top : solid ;
+margin-top: 1cm;
+padding : 0.3cm;
+}
+#perso{font-size : 200%;
+color : yellow ;
+border-color : red;
+padding : 1cm;
+}
+img{float : left;
+width:150px;
+}
+nav{font-size : 80%;
+}
+nav ul{list-style-type : none;
+}
