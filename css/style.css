@@ -4,7 +4,7 @@ background-color : grey;
 section{border : solid 2px;
 color : red;
 border-radius : 20px;
-padding : 0.5cm;
+padding : 0.2cm;
 margin : 0.3cm;
 }
 footer {
@@ -18,10 +18,19 @@ color : yellow ;
 border-color : red;
 padding : 1cm;
 }
-img{float : left;
-width:150px;
+img{float : right;
+width:100px;
 }
 nav{font-size : 80%;
 }
 nav ul{list-style-type : none;
+}
+@media (max-width: 600px) {
+nav {background-color: red;
+}
+}
+
+@media (min-width: 600px) {
+nav {background-color: black;
+}
 }
