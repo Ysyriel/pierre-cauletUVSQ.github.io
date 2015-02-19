@@ -24,8 +24,10 @@ margin:1cm;
 }
 nav{font-size : 80%;
 }
-nav ol{list-style-type : none;
+nav ul{list-style-type : none;
 }
+a {text-decoration: none; }
+a:hover {text-decoration: underline; }
 @media (max-width: 400px) {
 #nav {margin:0;
 padding:0;
@@ -40,11 +42,5 @@ display:inline;
 @media (min-width: 400px) {
 #nav {margin:0;
 padding:20px 40px 4px 10px;
-
-#nav a:hover 
-{
-color:rouge;
-background:bleu;
 }
-
 }
