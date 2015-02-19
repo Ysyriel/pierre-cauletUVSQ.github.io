@@ -1,5 +1,5 @@
 body {margin-left : 3cm;
-background-color : grey;
+background-color : gray;
 }
 section{border : solid 2px;
 color : red;
@@ -30,7 +30,7 @@ a {text-decoration: none; }
 a:hover {text-decoration: underline; }
 
 section:nth-child(even) {
-  background-color: #614;    
+  background-color: silver;    
 }
 @media (max-width: 400px) {
 #nav {margin:0;
