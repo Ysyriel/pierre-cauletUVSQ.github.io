@@ -4,7 +4,7 @@ background-color : grey;
 section{border : solid 2px;
 color : red;
 border-radius : 20px;
-padding : 0.2cm;
+padding : 0.5cm;
 margin : 0.3cm;
 }
 footer {
@@ -13,13 +13,18 @@ border-top : solid ;
 margin-top: 1cm;
 padding : 0.3cm;
 }
-#perso{font-size : 200%;
+#perso{font-size : 150%;
 color : yellow ;
 border-color : red;
 padding : 1cm;
 }
+#loisir{
+margin-bottom: 1cm
+}
 img{float : right;
 width:100px;
+margin-right: 2cm;
+margin-bottom: 3cm;
 }
 nav{font-size : 80%;
 }
@@ -40,6 +45,15 @@ nav ol{
 }
 
 @media (min-width: 600px) {
-nav {background-color: black;
+nav {  display: flex;
+flex-flow: row-reverse;
+  border: solid thick red;
+  height: 500px;
+}
+nav ol{
+  background-color: green;
+  width: 50px;
+  height: 50px;
+  margin: 2px;
 }
 }
