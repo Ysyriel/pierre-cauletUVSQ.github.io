@@ -28,6 +28,10 @@ nav ul{list-style-type : none;
 }
 a {text-decoration: none; }
 a:hover {text-decoration: underline; }
+
+section:nth-child(even) {
+  background-color: #614;    
+}
 @media (max-width: 400px) {
 #nav {margin:0;
 padding:0;
