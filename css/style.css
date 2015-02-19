@@ -32,7 +32,6 @@ padding:0;
 }
 #nav li {
 display:inline;
-padding:20px 40px 4px 10px;
 }
 #menuinterne{display:none;
 }
@@ -40,10 +39,12 @@ padding:20px 40px 4px 10px;
 
 @media (min-width: 400px) {
 #nav {margin:0;
-padding:0;
+padding:20px 40px 4px 10px;
+
+#nav a:hover 
+{
+color:rouge;
+background:bleu;
 }
-#nav li {display:inline;
-padding:0;
-margin:0;
-}
+
 }
