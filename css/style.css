@@ -18,18 +18,16 @@ color : yellow ;
 border-color : red;
 padding : 1cm;
 }
-#loisir{
-padding: 3cm;
-}
 img{float: right;
-width: 150px;
+width: 100px;
+margin:1cm;
 }
 nav{font-size : 80%;
 }
 nav ol{list-style-type : none;
 }
 @media (max-width: 400px) {
-nav ol {display: inline-block;
+.menu {display: inline-block;
 padding: 10px;
 }
 }
