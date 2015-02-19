@@ -21,9 +21,9 @@ padding : 1cm;
 #loisir{
 margin-bottom: 1cm;
 }
-img{position: fixed;
-right: 2cm;
-bottom: 3cm;
+img{float: right;
+margin: 1cm;
+width: 150px;
 }
 nav{font-size : 80%;
 }
@@ -32,21 +32,9 @@ nav ol{list-style-type : none;
 @media (max-width: 400px) {
 nav {  display: inline-block;
 }
-nav ol{
-  background-color: green;
-  width: 50px;
-  height: 50px;
-  margin: 2px;
-}
 }
 
 @media (min-width: 400px) {
 nav {  display: inline-block;
-}
-nav ol{
-  background-color: green;
-  width: 50px;
-  height: 50px;
-  margin: 2px;
 }
 }
